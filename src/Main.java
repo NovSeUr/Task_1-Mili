@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Здравствуйте,");
         int ticketPrice = 5000;
         int oneMileCost = 20;
-        int totalMiles = a / b;
-        System.out.println("Мили за билет: " + c);
+        int totalMiles = ticketPrice / oneMileCost;
+        System.out.println("Мили за билет: " + totalMiles);
     }
 }
